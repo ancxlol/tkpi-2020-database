@@ -112,11 +112,37 @@ uv run --with pymupdf python scripts/validate_tkpi_sample.py '/path/to/Buku Tabe
 
 ## Source note
 
-Source document:
-- `Buku Tabel Komposisi Pangan Indonesia tahun 2020`
+Primary source document used for this repository:
+- **Tabel Komposisi Pangan Indonesia (2020)**
+- Publisher shown on the cover: **Kementerian Kesehatan**
+- Internal evidence reviewed from the PDF front matter:
+  - cover page states `TABEL KOMPOSISI PANGAN INDONESIA — KEMENTERIAN KESEHATAN — 2020`
+  - the minister foreword (`Sambutan Menteri Kesehatan RI`) and preface identify the work as a Ministry of Health publication updated in 2020
 
-This repository republishes a structured extraction of selected table pages for easier public access. Users should still consult the original publication for official context, methodology, and provenance.
+The extraction in this repository uses only **PDF pages 15-83** from that source document.
 
-## License note
+## Legal note
 
-No additional rights are claimed over the underlying source data. Check the original source publication and publisher terms before downstream commercial redistribution.
+This repository is based on a **government document**, but this README does **not** claim that the source is openly licensed.
+
+The most relevant legal text I found is **Undang-Undang Nomor 28 Tahun 2014 tentang Hak Cipta**:
+- Official page: `https://peraturan.go.id/id/uu-no-28-tahun-2014`
+- Official PDF used for legal reading: `https://peraturan.go.id/files/uu28-2014bt.pdf`
+
+Relevant provisions:
+- **Pasal 43 huruf b**: publication/distribution/communication/reproduction of anything carried out by or on behalf of the government is *not considered copyright infringement*, **unless** protection is expressly stated by law, by a statement on the work, or at the time of publication.
+- **Pasal 44 ayat (1)**: use/reproduction/adaptation with complete source citation for education, research, scientific writing, reporting, criticism, or review is not considered infringement, so long as it does not unreasonably prejudice the copyright holder.
+
+Important caution:
+- **Pasal 42** does *not* make this book automatically public domain; that article covers things like statutes, court decisions, state speeches, and similar categories.
+- For this repository, **Pasal 43(b)** is the more relevant government-work provision.
+- In the PDF pages I reviewed (`1-14`), I did **not** find an explicit copyright notice, open license, or a direct statement forbidding copying. That is helpful, but it is **not the same thing as a formal open-data license**.
+
+## Practical disclaimer
+
+This repository is published for research, auditability, software access, and public reference.
+
+However:
+- it should still be treated as a structured extraction of a government publication,
+- users should cite the original source clearly,
+- and downstream commercial or high-risk redistribution should be reviewed against the original publication and applicable Indonesian law.
